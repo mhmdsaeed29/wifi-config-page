@@ -1,1 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ESP32 WiFi Config</title>
+</head>
+<body>
+  <h2>Change ESP32 WiFi Credentials</h2>
+
+  <label>New SSID:</label><br>
+  <input id="ssid" type="text"><br><br>
+
+  <label>New Password:</label><br>
+  <input id="password" type="text"><br><br>
+
+  <button onclick="updateWiFi()">Update WiFi</button>
+
+  <p id="status"></p>
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
 
